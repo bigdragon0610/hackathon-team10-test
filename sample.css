@@ -3,7 +3,7 @@
     width: auto;
     margin:  auto;
     max-width: 1000px;
-    padding-top: 80px;
+    padding-top: 80px;git
 }
 
 body{
@@ -26,7 +26,7 @@ body{
     right: 10px;
     z-index: 9997;
 }
-
+ /* もどるボタン*/
 .previousButton {
     display: block!important;/*!importantでスタイル適用の優先順位を上げる */
     background: url(http://www.musubime.jp/images/btn_prev_off.png) no-repeat 0 0;
