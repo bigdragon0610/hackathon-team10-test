@@ -3,7 +3,8 @@
     width: auto;
     margin:  auto;
     max-width: 1000px;
-    padding-top: 80px;git
+    padding-top: 80px;
+    overflow: hidden;
 }
 
 body{
@@ -129,4 +130,27 @@ div{
     overflow:hidden;
 }
 
+/*スマホ用(iphon10)のcssを記述*/
+@media screen and (max-width:375px) {
+.mainWrapper{
+    width: 300%;
+}
+}
 
+/*tablet用(iPad)のcssを記述*/       
+@media only screen and (min-width:375px) and (max-width:768px) {
+    .mainWrapper{
+       width: 100%;
+    }
+    .sampleImg ul{
+        width:768px;
+        height:450px;
+    }
+    .sampleImg ul li img{
+        width:768px;
+    }
+    #sample02,#sample03, #sample04{
+        width:768px;
+        height:450px;
+    }
+}
