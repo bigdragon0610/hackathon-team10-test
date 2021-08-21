@@ -1,0 +1,156 @@
+/* ページ全体中央揃え */
+.mainWrapper {
+    width: auto;
+    margin:  auto;
+    max-width: 1000px;
+    padding-top: 80px;
+    overflow: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 100%;
+    text-align: center;
+}
+
+.sample{
+    position: relative;
+    height: 590px;
+    margin-bottom: 90px;
+  }
+
+.sampleLogo{
+    position: absolute;
+    top: -30px;
+    right: 10px;
+    z-index: 9997;
+}
+ /* もどるボタン*/
+.previousButton {
+    display: block!important;/*!importantでスタイル適用の優先順位を上げる */
+    background: url(http://www.musubime.jp/images/btn_prev_off.png) no-repeat 0 0;
+    width: 500px;
+    height: 563px;
+    position: absolute;
+    top: 230px;
+    left: 30px;
+    border: none!important;
+    overflow: hidden;
+    text-indent: -8000px;
+    z-index: 900;
+    outline: none;
+}
+
+.previousButton a{
+    display: block!important;
+    background:url(http://www.musubime.jp/images/btn_prev_off.png) no-repeat 0 0;	
+	width:500px;
+	height:563px;
+	border: none!important;	
+}
+
+.nextButton{
+    display: block!important;/*!importantでスタイル適用の優先順位を上げる */
+    background: url(http://www.musubime.jp/images/btn_next_off.png) no-repeat 0 0;
+    width: 500px;
+    height: 563px;
+    position: absolute;
+    top: 230px;
+    right: -450px;
+    overflow: hidden;
+    text-indent: -8000px;
+    border: none!important;
+    z-index: 900;
+}
+
+.nextButton a{
+    display: block!important;
+    background:url(http://www.musubime.jp/images/btn_next_off.png) no-repeat 0 0;	
+	width:500px;
+	height:563px;
+	border: none!important;	
+}
+
+.caption{
+    margin: 0;
+    font-size: 12px;
+    text-align: right;
+    color: #333;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-family: "游明朝体","Yu Mincho",YuMincho,'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','HiraMinProN-W3',"HGS明朝E",'ＭＳ 明朝','MS Mincho',serif !important;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    display:block;
+}
+
+.sampleImg {
+    margin: 0;
+    padding-left: 0px;
+    margin-top: 0;
+    overflow: hidden;
+}
+.sampleImg ul {
+    margin-left: 0;
+    margin-right: 0;
+    list-style: none;
+} 
+.sample ul li {
+    display: inline;
+    padding-left: 0;
+    line-height: 100px;
+    list-style: none;
+    width: 1000px;
+    height: 563px;
+    overflow: hidden;
+}
+
+.slider{
+    overflow: hidden;
+}
+.slider ul{
+    margin:0;
+	padding:0;
+	width:1000px;
+	height:563px;
+	overflow:hidden;
+    list-style:none;
+}
+.slider li{
+    width:1000px;
+    height:563px;
+    overflow:hidden;
+}
+
+/*スマホ用(iphon10)のcssを記述*/
+@media screen and (max-width:375px) {
+.mainWrapper{
+    width: 300%;
+}
+}
+
+/*tablet用(iPad)のcssを記述*/       
+@media only screen and (min-width:375px) and (max-width:768px) {
+    .mainWrapper{
+       width: 100%;
+    }
+    .sampleImg ul{
+        width:768px;
+        height:450px;
+    }
+    .sampleImg ul li img{
+        width:768px;
+    }
+    #sample02,#sample03, #sample04{
+        width:768px;
+        height:450px;
+    }
+}
