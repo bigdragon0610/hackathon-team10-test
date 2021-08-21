@@ -1,4 +1,5 @@
 'use strict';
+//sample1
  //画像パス
     let imgSample1 = 'http://www.musubime.jp/images/sample/01/01.jpg';
     let imgSample2 = 'http://www.musubime.jp/images/sample/01/02.jpg';
