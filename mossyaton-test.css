@@ -1,0 +1,199 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+div.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+div#headerWrap {
+    position: relative;
+    z-index: 9998;
+}
+
+div#header {
+    background: url(http://www.musubime.jp/images/bg_header.png) repeat-x;  
+    position: fixed;
+    top: 10px;
+    left: inherit;
+}
+
+div#header h1 {
+    float: left;
+}
+
+div#header ul#gnavi {
+    width: 329px;
+    height: 57px;
+    float: right;
+    padding-right: 5px;
+    padding-left: 465px;
+}
+
+div#header ul#gnavi li {
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+}
+
+div.box01 {
+    height: 563px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#myname01,#myname02 {
+    margin: -150px -50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+div.box02 {
+    height: 400px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.taketori-atsign-ja-jp {
+    font-family: '@MS 明朝' !important;
+}
+
+.taketori-atsign-zh-tw {
+    font-family: '@MS 明朝' !important;
+}
+
+.takegaki {
+    padding: 0 60px 0 0;
+}
+
+/* .taketori-writingmode-ttb .taketori-col {
+    -webkit-writing-mode: vertical-rl;
+    -o-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: tb-rl;
+    
+}  */
+
+p {
+    color: #333;
+    line-height: 30px;
+    line-break: 28px blue\9;
+    _line-height: 28px; 
+    line-break: strict;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-left: 2px;
+    margin-bottom: 34px;
+    font-family: "游明朝体","Yu Mincho",YuMincho,'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','HiraMinProN-W3',"HGS明朝E",'ＭＳ 明朝','MS Mincho',serif !important;
+}
+
+p.lastChild {
+    margin-bottom: 0;
+}
+
+p.kakko {
+    margin-left: -0.6em;
+}
+
+p.member {
+    font-size: 13px;
+    line-height: 28px;
+}
+
+h2 {
+    position: absolute;
+    top: -30px;
+    right: 10px;
+    z-index: 9997;
+}
+
+
+
+
+.taketori-atsign-ja-jp,
+.taketori-atsign-zh-tw {
+    font-family: '@ＭＳ 明朝' !important;
+}
+
+.taketori-ttb { overflow: hidden;  position: relative; }
+.taketori-ttb span { cursor: vertical-text; }
+.taketori-ttb a span { cursor: pointer !important; }
+.taketori-ttb .taketori-col {
+    -moz-transform-origin: left bottom;
+    -webkit-transform-origin: left bottom;
+    -o-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    transform:rotate(90deg);
+}
+
+
+  /*  Use Writing Mode  */
+.taketori-writingmode-ttb .taketori-col {
+    -moz-writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    -o-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: tb-rl;
+    _writing-mode: tb-rl;
+}
+
+
+.taketori-writingmode-ttb strong.bo-ten {
+    font-weight: normal;
+    -webkit-text-emphasis-style: filled;
+    -moz-text-emphasis-style: filled;
+    -o-text-emphasis-style: filled;
+    -ms-text-emphasis-style: filled;
+    text-emphasis-style: filled;
+}
+
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.gnavi_philosophy_rollover {
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+.gnavi_philosophy_rollover:hover {
+    opacity: 1;
+}
+
+.gnavi_sample_rollover {
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+.gnavi_sample_rollover:hover {
+    opacity: 1;
+}
+
+.gnavi_profile_rollover {
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+.gnavi_profile_rollover:hover{
+    opacity: 1;
+}
+
+.gnavi_contact_rollover {
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+.gnavi_contact_rollover:hover{
+    opacity: 1;
+}

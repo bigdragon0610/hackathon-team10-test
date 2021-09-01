@@ -4,138 +4,203 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sampleの箇所</title>
+    <link rel="stylesheet" href="mossyaton-test.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>musubime™ ｜ カワセ タケヒロ</title>
     <link rel="stylesheet" href="sample.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
-  <div class="mainWrapper">
-     <!-- <div class="sample"> 
-        <img class= "sampleLogo" src="http://www.musubime.jp/images/h2_sample_01.png" alt="sample.01" width="17" height="82">
-        <ul>
-          <li class="slider-item slider-item01"></li>
-          <li class="slider-item slider-item02"></li>
-          <li class="slider-item slider-item03"></li>
-          <li class="slider-item slider-item04"></li>
-          <li class="slider-item slider-item05"></li>
-        </ul>
-        <p class="caption">山崎健太郎デザインワークショップ 会社案内</p>
-     </div> -->
-
-
-
-     <div class="sample">
-      <img class= "sampleLogo" src="http://www.musubime.jp/images/h2_sample_01.png" alt="sample.01" width="17" height="82">
-        <!-- <div class="borderLeft"> <!➀左ボタン --
-           <div class="borderLeftIn"></div>
-        </div> -->
-      <div class="slider">
-          <span id="prevBtn" class="previousButton">
-           <a href="javascript:void(0);">
-             <img src="http://www.musubime.jp/images/btn_prev_off.png" alt="戻るボタン">
+    <div id="top" class="wrapper">
+        <div id="headerWrap">
+            <div id="header">
+                <h1 id="logo" style="display: block;">
+                <a href="#top">
+                    <img src="http://www.musubime.jp/images/h1_logo_rollover.png" alt="ロゴの画像" style="opacity: 0; position: absolute;">
+                    <img src="http://www.musubime.jp/images/h1_logo_rollout.png" width="201" height="57" alt="musubime™">
+                </a>
+                </h1>
+                <ul id="gnavi" style="display: block;">
+                    <li>
+                        <a href="#philosophy" class="alphaRollover1">
+                            <img src="http://www.musubime.jp/images/gnavi_philosophy_rollover.png" style="position: absolute;" class="gnavi_philosophy_rollover">
+                            <img src="http://www.musubime.jp/images/gnavi_philosophy_rollout.png"  width="81" height="57" alt="philosophy" class="gnavi_philosophy_rollout">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#sample" class="alphaRollover2">
+                            <img src="http://www.musubime.jp/images/gnavi_sample_rollover.png" style="position: absolute;" class="gnavi_sample_rollover">
+                            <img src="http://www.musubime.jp/images/gnavi_sample_rollout.png" width="56" height="57" alt="sample">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#profile" class="alphaRollover3">
+                            <img src="http://www.musubime.jp/images/gnavi_profile_rollover.png" style="position: absolute;" class="gnavi_profile_rollover">
+                            <img src="http://www.musubime.jp/images/gnavi_profile_rollout.png" width="54" height="57" alt="profile">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="alphaRollover4">
+                            <img src="http://www.musubime.jp/images/gnavi_contact_rollover.png" style="position: absolute;" class="gnavi_contact_rollover">
+                            <img src="http://www.musubime.jp/images/gnavi_contact_rollout.png" width="58" height="57" alt="contact">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="box01">
+            <img src="http://www.musubime.jp/images/img_00_01.png" width="100" height="300" alt="Graphic Designer カワセ　タケヒロ" id="myname01" style="display: none;">
+            <img src="http://www.musubime.jp/images/img_00_02.png" width="100" height="300" alt="Graphic Designer カワセ　タケヒロ" id="myname02" style="display: block;">
+        </div>
+        <div id="philosophy" class="box02" style="display: block;">
+            <h2>
+                <img src="http://www.musubime.jp/images/h2_philosophy.gif" width="17" height="84" alt="philosophy">
+            </h2>
+            <div class="tategaki taketori-writingmode-ttb taketori-atsign-ja-jp taketori-lang-ja-jp">
+                <div class="taketori-col" style="width:940px;height:800px;padding-bottom:32px;position:relative; width:940px;">
+                    <p class="kakko" style="border-width: 0px; border-color: rab(51, 51, 51); border-style: none; padding: 0px; overflow: visible; background-position: 0% 0%; margin: -8.4px 0px 0px 34px;;">
+                        「誰か」と「誰か」、
+                        <br>
+                        「誰か」と「何か」、
+                        <br>
+                        「何か」と「何か」。
+                    </p>
+                    <p style="border-width: 0px; border-color: rab(51, 51, 51); border-style: none; padding: 0px; overflow: visible; background-position: 0% 0%; margin: 2px 0px 0px 34px;">
+                        それらを結びつけ、人や環境にとって良い変化をもたらしたり、
+                        <br>
+                        良い方向へ導いたりすることは、デザインに求められる重要な
+                        <br>
+                        役割のひとつです。
+                    </p>
+                    <p style="border-width: 0px; border-color: rab(51, 51, 51); border-style: none; padding: 0px; overflow: visible; background-position: 0% 0%; margin: 2px 0px 0px 34px;;">
+                        優れた道具と、それを使いたい誰かを結び付けたり、
+                        <br>
+                        技術を持った誰かと、それを求める誰かをつないだり、
+                        <br>
+                        暮らしに根付いた文かの新しい形を見つけたり。
+                    </p>
+                    <p style="border-width: 0px; border-color: rab(51, 51, 51); border-style: none; padding: 0px; overflow: visible; background-position: 0% 0%; margin: 2px 0px 0px 34px;;">
+                        そうした流れをつなぐための
+                        <strong class="bo-ten" style="border-width: 0px; border-color: rab(51, 51, 51); border-style: none; padding: 0px; background-position: 0% 0%; margin: 0px;;">結び目</strong>
+                        として、
+                        <br>
+                        商業／公共問わず、日々デザインに取り組んでいます。
+                    </p>
+                    <p style="border-width: 0px; border-color: rab(51, 51, 51); border-style: none; padding: 0px; overflow: visible; background-position: 0% 0%; margin: 2px 0px 0px 34px;;">
+                        そして、こうしたグラフィックデザインという作業では、
+                        <br>
+                        一般的なセオリーだけではなく、認知行動科学や心理学、
+                        <br>
+                        神経内科学など、体系的な裏打ちに基づいた視覚設計が
+                        <br>
+                        求められると考えています。
+                    </p>
+                    <p style="border-width: 0px; border-color: rab(51, 51, 51); border-style: none; padding: 0px; overflow: visible; background-position: 0% 0%; margin: 2px 0px 0px 34px;;">
+                        また、事業の立ち上げから関わる機会が多いため、
+                        <br>
+                        グラフィックデザイン以外のご相談も多くいただいています。
+                    </p>
+                    <p style="border-width: 0px; border-color: rab(51, 51, 51); border-style: none; padding: 0px; overflow: visible; background-position: 0% 0%; margin: 2px 0px 0px 34px;;">
+                        例えば、とある病院では、ＣＩ計画だけでなく、
+                        <br>
+                        問診からカルテ保管までのワークフロー設計や、
+                        <br>
+                        インテリアコーディネートも担当させていただきました。
+                    </p>
+                    <p class="lastChild" style="border-width: 0px; border-color: rab(51, 51, 51); border-style: none; padding: 0px; overflow: visible ; background-position: 0% 0%; margin: 2px 0px 0px;;">
+                        現在は、建築家・山崎健太郎氏らと共同で、
+                        <br>
+                        建築設計からＣＩ計画まで一貫して扱う、
+                        <br>
+                        総合的なブランディングなどもお請けしています。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="mossyathon-test.js"></script>
+    <div class="mainWrapper">
+      <div class="sample">
+       <img class= "sampleLogo" src="http://www.musubime.jp/images/h2_sample_01.png" alt="sample.01" width="17" height="82">
+       <div class="slider">
+           <span id="prevBtn" class="previousButton">
+            <a href="javascript:void(0);">
+              <img src="http://www.musubime.jp/images/btn_prev_off.png" alt="戻るボタン">
+            </a>
+           </span>
+   
+           <span id="nextBtn" class="nextButton">
+            <a href="javascript:void(0);">
+              <img src="http://www.musubime.jp/images/btn_next_off.png" alt="進むボタン">
            </a>
-          </span>
-  
-          <!-- <div class="borderRight"> <!-➁右ボタン --
-             <div class="borderRightIn"></div>
-          </div> -->
-  
-          <span id="nextBtn" class="nextButton">
-           <a href="javascript:void(0);">
-             <img src="http://www.musubime.jp/images/btn_next_off.png" alt="進むボタン">
-          </a>
-          </span>
-  
-          <div class="sampleImg"> <!--➂画像挿入区域 -->
-             <ul></ul>
-          </div>
+           </span>
+   
+           <div class="sampleImg"> <!--➂画像挿入区域 -->
+              <ul></ul>
+           </div>
+       </div>
+         <p class="caption">山崎健太郎デザインワークショップ 会社案内</p>
       </div>
-        <p class="caption">山崎健太郎デザインワークショップ 会社案内</p>
-     </div>
-
-
-
-
-
-     <!-- <div class="sample">
-      <img id="sample01" src="http://www.musubime.jp/images/sample/01/01.jpg" alt="sample1-1の写真" width="1000" height="563">
-      <img class= "sampleLogo" src="http://www.musubime.jp/images/h2_sample_01.png" alt="sample.01" width="17" height="82">
-
-      <span id="prevBtn" class="previousButton">
-         <a href="javascript:void(0);" onclick="goBack()">
+ 
+      <div class="sample">
+       <img id="sample02" src="http://www.musubime.jp/images/sample/02/01.jpg" alt="sample2-1の写真" width="1000" height="563">
+       <img class= "sampleLogo" src="http://www.musubime.jp/images/h2_sample_02.png" alt="sample.02" width="17" height="82">
+       
+       <span id="prevBtn2" class="previousButton">
+          <a href="javascript:void(0);" onclick="goBack2()">
            <img src="http://www.musubime.jp/images/btn_prev_off.png" alt="戻るボタン">
-         </a>
-      </span>
-
-      <span id="nextBtn" class="nextButton">
-         <a href="javascript:void(0);" onclick="goForward()">
+          </a>
+       </span>
+       
+       <span id="nextBtn2" class="nextButton">
+          <a href="javascript:void(0);" onclick="goForward2()">
            <img src="http://www.musubime.jp/images/btn_next_off.png" alt="進むボタン">
-        </a>
-      </span>
-      <p class="caption">山崎健太郎デザインワークショップ 会社案内</p>
-     </div> -->
-
-
-     <div class="sample">
-      <img id="sample02" src="http://www.musubime.jp/images/sample/02/01.jpg" alt="sample2-1の写真" width="1000" height="563">
-      <img class= "sampleLogo" src="http://www.musubime.jp/images/h2_sample_02.png" alt="sample.02" width="17" height="82">
+          </a>
+       </span>
+       <p class="caption">Cafe&Dining SAKAE  CI計画、店内ツール企画制作</p>
+      </div>
+ 
+ 
+      <div class="sample">
+       <img id="sample03" src="http://www.musubime.jp/images/sample/03/01.jpg" alt="sample3-1の写真" width="1000" height="563">
+       <img class= "sampleLogo" src="http://www.musubime.jp/images/h2_sample_03.png" alt="sample.03" width="17" height="82">
+       
+       <span id="prevBtn3" class="previousButton">
+          <a href="javascript:void(0);" onclick="goBack3()">
+           <img src="http://www.musubime.jp/images/btn_prev_off.png" alt="戻るボタン">
+          </a>
+       </span>
+       
+       <span id="nextBtn3" class="nextButton">
+          <a href="javascript:void(0);" onclick="goForward3()">
+           <img src="http://www.musubime.jp/images/btn_next_off.png" alt="進むボタン">
+          </a>
+       </span>
+       <p class="caption">NGOこころっコロ  VI制作</p>
+      </div>
+ 
+ 
+      <div class="sample">
+       <img id="sample04" src="http://www.musubime.jp/images/sample/04/01.jpg" alt="sample4-1の写真" width="1000" height="563">
+       <img class= "sampleLogo" src="http://www.musubime.jp/images/h2_sample_04.png" alt="sample.04" width="17" height="82">
       
-      <span id="prevBtn2" class="previousButton">
-         <a href="javascript:void(0);" onclick="goBack2()">
-          <img src="http://www.musubime.jp/images/btn_prev_off.png" alt="戻るボタン">
-         </a>
-      </span>
+       <span id="prevBtn4" class="previousButton">
+          <a href="javascript:void(0);" onclick="goBack4()">
+           <img src="http://www.musubime.jp/images/btn_prev_off.png" alt="戻るボタン">
+          </a>
+       </span>
       
-      <span id="nextBtn2" class="nextButton">
-         <a href="javascript:void(0);" onclick="goForward2()">
-          <img src="http://www.musubime.jp/images/btn_next_off.png" alt="進むボタン">
-         </a>
-      </span>
-      <p class="caption">Cafe&Dining SAKAE  CI計画、店内ツール企画制作</p>
-     </div>
-
-
-     <div class="sample">
-      <img id="sample03" src="http://www.musubime.jp/images/sample/03/01.jpg" alt="sample3-1の写真" width="1000" height="563">
-      <img class= "sampleLogo" src="http://www.musubime.jp/images/h2_sample_03.png" alt="sample.03" width="17" height="82">
-      
-      <span id="prevBtn3" class="previousButton">
-         <a href="javascript:void(0);" onclick="goBack3()">
-          <img src="http://www.musubime.jp/images/btn_prev_off.png" alt="戻るボタン">
-         </a>
-      </span>
-      
-      <span id="nextBtn3" class="nextButton">
-         <a href="javascript:void(0);" onclick="goForward3()">
-          <img src="http://www.musubime.jp/images/btn_next_off.png" alt="進むボタン">
-         </a>
-      </span>
-      <p class="caption">NGOこころっコロ  VI制作</p>
-     </div>
-
-
-     <div class="sample">
-      <img id="sample04" src="http://www.musubime.jp/images/sample/04/01.jpg" alt="sample4-1の写真" width="1000" height="563">
-      <img class= "sampleLogo" src="http://www.musubime.jp/images/h2_sample_04.png" alt="sample.04" width="17" height="82">
-     
-      <span id="prevBtn4" class="previousButton">
-         <a href="javascript:void(0);" onclick="goBack4()">
-          <img src="http://www.musubime.jp/images/btn_prev_off.png" alt="戻るボタン">
-         </a>
-      </span>
-     
-      <span id="nextBtn4" class="nextButton">
-         <a href="javascript:void(0);" onclick="goForward4()">
-          <img src="http://www.musubime.jp/images/btn_next_off.png" alt="進むボタン">
-         </a>
-      </span>
-      <p class="caption">プライマリヘルスケア研究所／あやめ診療所  CI計画、ウェブサイト制作など</p>
-     </div>
-
-
-  </div>
-
-    <script src="sample.js"></script>
-
+       <span id="nextBtn4" class="nextButton">
+          <a href="javascript:void(0);" onclick="goForward4()">
+           <img src="http://www.musubime.jp/images/btn_next_off.png" alt="進むボタン">
+          </a>
+       </span>
+       <p class="caption">プライマリヘルスケア研究所／あやめ診療所  CI計画、ウェブサイト制作など</p>
+      </div>
+ 
+ 
+   </div>
+ 
+     <script src="sample.js"></script>
 </body>
 </html>
